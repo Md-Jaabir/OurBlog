@@ -1,4 +1,12 @@
 const articles = [
+   {
+    title: "Bangladesh washed Ireland in the 3 match ODI seriese",
+    shortDesc: "Bangladesh achieved yet another clean sweep against Ireland in the recently concluded...",
+    date: "24-03-2023",
+    category: "sports",
+    cover: "./assets/ban-ire.png",
+    articleUrl: "./articles/banvsireodi.html"
+  },
   {
     title: "Top 5 ways to use ChatGPT effectively",
     shortDesc: "ChatGPT is an impressive AI chatbot created by OpenAI that can answer almost any question you throw...",
