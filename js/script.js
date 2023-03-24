@@ -24,7 +24,7 @@ const fetchRecent=()=>{
   for(let i=0;i<=4;i++){
   let article=articles[i];
     if(article){
-      markup+=`<div class="post">
+      markup+=`<div onclick="navigate('${article.articleUrl}')" class="post">
           <img src="${article.cover}">
           <div class="detail">
             <h2>${article.title}</h2>
