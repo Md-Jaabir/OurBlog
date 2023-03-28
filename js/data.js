@@ -1,4 +1,12 @@
 const articles = [
+    {
+    title: "Bangladesh acheived another t20 victory",
+    shortDesc: "Yesterday, the first T20 match between Bangladesh and Ireland was held at Jahur Ahmed Chowdhury...",
+    date: "28-03-2023",
+    category: "sports",
+    cover: "./assets/ban-ire-t20-one.png",
+    articleUrl: "./articles/banvsiret20one.html"
+   },  
    {
     title: "Bangladesh washed Ireland in the 3 match ODI seriese",
     shortDesc: "Bangladesh achieved yet another clean sweep against Ireland in the recently concluded...",
