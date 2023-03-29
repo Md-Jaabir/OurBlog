@@ -1,5 +1,13 @@
 const articles = [
     {
+    title:"Top 5 chess opening principles thar you must know",
+    shortDesc: "The opening stage of a chess game is critical because...",
+    date: "30-03-2023",
+    category: "chess",
+    cover: "./assets/chessopening-png",
+    articleUrl: "./articles/chessopeningprinciples.html"
+    },  
+    {
     title: "Bangladesh acheived another t20 victory",
     shortDesc: "Yesterday, the first T20 match between Bangladesh and Ireland was held at Jahur Ahmed Chowdhury...",
     date: "28-03-2023",
