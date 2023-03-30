@@ -4,7 +4,7 @@ const articles = [
     shortDesc: "The opening stage of a chess game is critical because...",
     date: "30-03-2023",
     category: "chess",
-    cover: "./assets/chessopening-png",
+    cover: "./assets/chessopening.png",
     articleUrl: "./articles/chessopeningprinciples.html"
     },  
     {
