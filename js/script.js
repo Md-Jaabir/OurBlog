@@ -21,7 +21,7 @@ const toggleNav=()=>{
 const fetchRecent=()=>{
   const container=document.querySelector("main .recent .posts");
   let markup="";
-  for(let i=0;i<=4;i++){
+  for(let i=0;i<4;i++){
   let article=articles[i];
     if(article){
       markup+=`<div onclick="navigate('${article.articleUrl}')" class="post">
