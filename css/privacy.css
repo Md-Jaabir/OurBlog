@@ -1,0 +1,10 @@
+main h1,h2{
+  margin-top:40px;
+  text-align: center;
+  padding-inline:20px;
+}
+
+main p,.privacy-ul{
+  padding: 0 40px;
+  margin-top: 20px;
+}
