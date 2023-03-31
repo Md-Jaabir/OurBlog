@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LSF9RCCLNR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-LSF9RCCLNR');
+  </script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/92ee0b62df.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/app.css">
+  <link rel="icon" type="image/png" href="./favicon.png">
+  <title>OurBlog</title>
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <img src="./assets/logo.png" alt="Logo">
+      <h2 onclick="navigate('./')">Our Blog</h2>
+    </div>
+    <div class="hamburger">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+    <ul type="none" class="links">
+      <li><a href="./">Home</a></li>
+      <li>
+        <a class="category-link" href="./articles.html">Articles</a>
+      </li>
+      <li><a href="./contact.html">Contact us</a></li>
+      <li></li>
+    </ul>
+  </nav>
+  <main>
+    <div class="hero">
+      <h1>Read here about Sports , Mathematics , Technology and Chess</h1>
+      <h2>Don't play with fire play with articles.</h2>
+      <button onclick="navigate('./articles.html')"> Start reading now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div id="about" class="about">
+      <div class="left">
+        <h1>About the writer</h1>
+        <p>Hi, I'm Md Jaabir. I'm a student in class 9 and also a web developer. I love to write about sports, math,
+          chess, and technology. Writing is my passion and I'm always looking for new ways to express my thoughts. My
+          dream is to become a successful writer one day. Aside from that, I also enjoy playing chess and spending time
+          with my friends.</p>
+
+      </div>
+      <div class="right">
+        <img src="./assets/writer-image.jpg" alt="Writer">
+      </div>
+    </div>
+    <div id="recent" class="recent">
+      <h1>Recent Articles</h1>
+      <div class="posts">
+        <h2>Loading...</h2>
+      </div>
+      <a href="./articles.html">Show all</a>
+    </div>
+  </main>
+  <img class="curve" src="./assets/curve.png" alt="Curve image">
+  <footer>
+    <strong>Email: developerjaabir@gmail.com</strong>
+    <div class="social-icons">
+      <button class="social-icon" onclick="window.open('https://www.facebook.com/groups/752137999872682','_blank')"><i
+          class="fa-brands fa-facebook"></i></button>
+      <button class="social-icon" onclick="window.open('https://twitter.com/Blog335300Our','_blank')"><i
+          class="fa-brands fa-square-twitter"></i></button>
+      <button onclick="window.open('https://www.instagram.com/our___blog/','_blank')" class="social-icon"><i
+          class="fa-brands fa-square-instagram"></i></button>
+    </div>
+    <div class="privacy-links">
+      <a href="./privacy.html">Privacy policy</a>
+      <a href="./contact.html">Contact us</a>
+    </div>
+  </footer>
+  <script src="./js/data.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
