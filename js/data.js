@@ -1,5 +1,13 @@
 const articles = [
-  {
+    {
+    title:"The GOAT!!!",
+    shortDesc: "Lionel Andres Messi is widely regarded as one of the greatest footballers...",
+    date: "4-04-2023",
+    category: "sports",
+    cover: "./assets/messi.png",
+    articleUrl: "./articles/messi.html"
+    },
+    {
     title:"BDMO 2012 Regional problem with solution",
     shortDesc: "Can you solve this problem???",
     date: "31-03-2023",
