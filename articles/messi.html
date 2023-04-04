@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LSF9RCCLNR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-LSF9RCCLNR');
+  </script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/92ee0b62df.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/global.css">
+  <style>
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    main h1 {
+      margin-top: 20px;
+      width: 80%;
+      text-align: center;
+    }
+
+    .main-image {
+      width:470px;
+      margin-top: 20px;
+    }
+    @media screen and (max-width:770px) {
+      .main-image{
+        width:80%;
+      }
+    }
+
+    main p {
+      max-width: 70%;
+      margin: 20px 0;
+      line-height: 30px;
+    }
+
+    main h2 {
+      margin-top: 20px;
+      text-align: left;
+      width: 70%;
+    }
+
+    @media screen and (max-width:400px) {
+      main p {
+        max-width: 80%;
+      }
+
+      main h2 {
+        width: 80%;
+      }
+    }
+    main .comment form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      main .comment form input,
+      textarea {
+        padding: 10px;
+        outline: none;
+        border: 1px solid #999;
+        width: 300px;
+        resize: none;
+        border-radius: 4px;
+      }
+
+      main .comment form input:focus,
+      textarea:focus {
+        border: 2px solid black;
+      }
+
+      main .comment form textarea {
+        height: 120px;
+      }
+
+      main .comment form{
+        margin-top: 30px;
+      }
+
+      main .comment form h2{
+        text-align: center;
+        margin-bottom: 10px;
+        width:100%;
+      }
+
+      main .comment form button {
+        padding: 10px 0;
+        margin-top: 25px;
+        background: #ffb749;
+        border-radius: 4px;
+        border-color: #ffb749;
+        outline: none;
+        cursor: pointer;
+        font-weight: bold;
+      }
+  </style>
+  <link rel="icon" type="image/png" href="../favicon.png">
+  <title>The GOAT!!!</title>
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <img src="../assets/logo.png" alt="Logo">
+      <h2 onclick="navigate('../')">Our Blog</h2>
+    </div>
+    <div class="hamburger">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+    <ul type="none" class="links">
+      <li><a href="../">Home</a></li>
+      <li>
+        <a href="../articles.html">Articles</a>
+      </li>
+      <li><a href="../contact.html">Contact us</a></li>
+      <li></li>
+    </ul>
+  </nav>
+  <main>
+    <h1>The Life Of Lionel Messi </h1>
+    <img src="../assets/messi.png" alt="Messi" class="main-image">
+    <p>Lionel Andres Messi is widely regarded as one of the greatest footballers of all time. He was born on June 24, 1987, in Rosario, Argentina to Jorge Messi and Celia Maria Cuccittini. From a young age, Messi was passionate about football, and his parents fully supported him in pursuing his dreams.</p>
+    <img style="margin-top:0" src="../assets/childmessi.png" alt="Child Messi" class="main-image">
+    <p>At the age of 4, Messi began his football career at a club called Grandoli. He quickly made a name for himself on the field, even at such a young age. Three years later, he joined Newell's Old Boys before eventually making his way to his ultimate club, Barcelona, at the age of 13. Messi's youth career was blessed by his grandmother, Celia Olivia Cuccittina, who he still remembers fondly and points to the sky in her honor during every celebration.</p>
+    <p>Messi joined Barcelona's senior team in 2004 and spent 17 years with the club, winning an incredible 10 La Liga titles, 7 Copa del Rey titles, and 4 UEFA Champions League titles. During his time with Barcelona, Messi also won numerous individual awards, including the Ballon d'Or award a record-breaking 7 times and the European Golden Shoes for 6 times.</p>
+    <img src="../assets/messi-awards.png" alt="Messi's awards" class="main-image">
+    <p>Despite Messi's incredible success with Barcelona, he had not won any major international tournaments until 2021. Many of his detractors argued that he couldn't be considered the GOAT without a World Cup or Copa America trophy. However, Messi silenced his critics by leading Argentina to victory in the Copa America in 2021 and the World Cup in 2022.</p>
+    <img src="../assets/messi-fans.png" alt="Messi's fans" class="main-image">
+    <p>Messi is more than just a footballer to many fans - he is a symbol of love and hope. Every goal he scores is cherished and celebrated as if it were more valuable than a diamond. Fans around the world hope that Messi will continue to play for many more years and end his career on a high note, adding to his already incredible legacy.</p>
+    <div class="comment">
+      <form action="https://formspree.io/f/xknavpwr" method="POST">
+        <h2>Share your feedback</h2>
+        <input style="display:none" value="Bangladesh washed Ireland" name="article-title" required type="text" readonly placeholder="Enter your article title">
+        <input name="name" required type="text" placeholder="Enter your name">
+        <input name="email" required type="email" placeholder="Enter your email">
+        <textarea name="feedback" required placeholder="feedback..."></textarea>
+        <button type="submit">Share now</button>
+      </form>
+    </div>
+  </main>
+  <img class="curve" src="../assets/curve.png" alt="Curve image">
+  <footer>
+    <strong>Email: developerjaabir@gmail.com</strong>
+    <div class="social-icons">
+      <button class="social-icon" onclick="window.open('https://www.facebook.com/groups/752137999872682','_blank')"><i
+          class="fa-brands fa-facebook"></i></button>
+      <button class="social-icon" onclick="window.open('https://twitter.com/Blog335300Our','_blank')"><i
+          class="fa-brands fa-square-twitter"></i></button>
+      <button onclick="window.open('https://www.instagram.com/our___blog/','_blank')" class="social-icon"><i
+          class="fa-brands fa-square-instagram"></i></button>
+    </div>
+    <div class="privacy-links">
+      <a href="./privacy.html">Privacy policy</a>
+      <a href="./contact.html">Contact us</a>
+    </div>
+  </footer>
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
