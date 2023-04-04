@@ -2,7 +2,7 @@ const articles = [
     {
     title:"The GOAT!!!",
     shortDesc: "Lionel Andres Messi is widely regarded as one of the greatest footballers...",
-    date: "4-04-2023",
+    date: "04-04-2023",
     category: "sports",
     cover: "./assets/messi.png",
     articleUrl: "./articles/messi.html"
