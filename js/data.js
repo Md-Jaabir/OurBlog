@@ -5,7 +5,7 @@ const articles = [
     date: "12-04-2023",
     category: "tech",
     cover: "./assets/introtocoding.png",
-    articleUrl: "./articles/programmingone.html"
+    articleUrl: "./articles/codingone.html"
     },
     {
     title:"The GOAT!!!",
