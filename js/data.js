@@ -1,5 +1,13 @@
 const articles = [
     {
+    title:"Intro to programming",
+    shortDesc: "Programming is a method of giving instructions to a computer...",
+    date: "12-04-2023",
+    category: "tech",
+    cover: "./assets/introtocoding.png",
+    articleUrl: "./articles/programmingone.html"
+    },
+    {
     title:"The GOAT!!!",
     shortDesc: "Lionel Andres Messi is widely regarded as one of the greatest footballers...",
     date: "04-04-2023",
