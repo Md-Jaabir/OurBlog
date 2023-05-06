@@ -1,5 +1,13 @@
 const articles = [
     {
+    title:"Series related BDMO Junior category problem",
+    shortDesc: "Find the summation of the first 100 terms of the series 1+2+5+6+9+10+13+14+...",
+    date: "06-05-2023",
+    category: "math",
+    cover: "./assets/mathproblemtwo.png",
+    articleUrl: "./articles/mathproblemtwo.html"
+    },
+    {
     title:"Intro to programming",
     shortDesc: "Programming is a method of giving instructions to a computer...",
     date: "12-04-2023",
