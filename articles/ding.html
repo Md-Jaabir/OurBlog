@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LSF9RCCLNR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-LSF9RCCLNR');
+  </script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/92ee0b62df.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/global.css">
+  <style>
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    main h1 {
+      margin-top: 20px;
+      width: 80%;
+      text-align: center;
+    }
+
+    .main-image {
+      width:470px;
+      margin-top: 20px;
+    }
+    @media screen and (max-width:770px) {
+      .main-image{
+        width:80%;
+      }
+    }
+
+    main p {
+      max-width: 70%;
+      margin: 20px 0;
+      margin-top: 5px;
+      line-height: 30px;
+    }
+
+    main h2 {
+      margin-top: 20px;
+      text-align: left;
+      width: 70%;
+    }
+
+    @media screen and (max-width:400px) {
+      main p {
+        max-width: 80%;
+      }
+
+      main h2 {
+        width: 80%;
+      }
+    }
+    main .comment form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      main .comment form input,
+      textarea {
+        padding: 10px;
+        outline: none;
+        border: 1px solid #999;
+        width: 300px;
+        resize: none;
+        border-radius: 4px;
+      }
+
+      main .comment form input:focus,
+      textarea:focus {
+        border: 2px solid black;
+      }
+
+      main .comment form textarea {
+        height: 120px;
+      }
+
+      main .comment form{
+        margin-top: 30px;
+      }
+
+      main .comment form h2{
+        text-align: center;
+        margin-bottom: 10px;
+        width:100%;
+      }
+
+      main .comment form button {
+        padding: 10px 0;
+        margin-top: 25px;
+        background: #ffb749;
+        border-radius: 4px;
+        border-color: #ffb749;
+        outline: none;
+        cursor: pointer;
+        font-weight: bold;
+      }
+  </style>
+  <link rel="icon" type="image/png" href="../favicon.png">
+  <title>Intro to programming</title>
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <img src="../assets/logo.png" alt="Logo">
+      <h2 onclick="navigate('../')">Our Blog</h2>
+    </div>
+    <div class="hamburger">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+    <ul type="none" class="links">
+      <li><a href="../">Home</a></li>
+      <li>
+        <a href="../articles.html">Articles</a>
+      </li>
+      <li><a href="../contact.html">Contact us</a></li>
+      <li></li>
+    </ul>
+  </nav>
+  <main>
+    <h1>The life of the world chess champion</h1>
+    <img src="../assets/ding.png" alt="Ding Liren" class="main-image">
+    <h2>Introduction</h2>
+    <p>Last week, a new world chess champion was crowned, Ding Liren, who ended the reign of five-time world champion Magnus Carlsen. He defeated Russian grandmaster Ian Nepomniachtchi in the tie-breaker round of the world chess championship final. In this article, we will delve deeper into the life and achievements of this Chinese grandmaster.</p>
+    <h2>Birth and Education</h2>
+    <p>Ding Liren was born in Wenjhou, China, and started learning chess at the age of four. He attended Zhejiang Wenjhou High School and later graduated from Peking University Law School.</p>
+    <h2>Chess Career</h2>
+    <p>Ding Liren has been a dominant force in Chinese chess in recent years, winning the Chinese championship in 2009, 2011, and 2012. He has also represented China in the Chess Olympiads of 2012, 2014, 2016, and 2018. In addition, he became the first Chinese player since Wang Yue to break into the top 10 of the FIDE world rankings. Ding also holds the distinction of being the highest-rated blitz player as of July 2016. In September 2017, he qualified for the Candidates Tournament and placed fourth in the tournament in 2018. He went on to win the Sinquefield Cup in August 2019, defeating Magnus Carlsen in the process. Ding also qualified for the Candidates Tournament 2020-2021, and although he did not initially qualify in the 2022 tournament, he was given a chance to play due to the disqualification of Sergey Karjakin. Ding achieved second place in the Candidates 2022 and ultimately earned a chance to play in the World Chess Championship.</p>
+    <p>In the world championship final, Ding Liren faced off against Ian Nepomniachtchi, and in a stunning performance, he emerged victorious in the tie-breakers, becoming the first Chinese player to win the world chess championship.</p>
+    <h2>Conclusion</h2>
+    <p>Ding Liren's rise to prominence has been remarkable, and he has become an inspiration to many young chess players in China and beyond. His accomplishments in the sport have elevated the profile of Chinese chess and have helped to establish China as a force to be reckoned with in the chess world. As he continues to compete and excel at the highest level, we can expect to see more incredible performances from this talented grandmaster in the years to come.
+</p>
+    <div class="comment">
+      <form action="https://formspree.io/f/xknavpwr" method="POST">
+        <h2>Share your feedback</h2>
+        <input style="display:none" value="Ding Liren" name="article-title" required type="text" readonly placeholder="Enter your article title">
+        <input name="name" required type="text" placeholder="Enter your name">
+        <input name="email" required type="email" placeholder="Enter your email">
+        <textarea name="feedback" required placeholder="feedback..."></textarea>
+        <button type="submit">Share now</button>
+      </form>
+    </div>
+  </main>
+  <img class="curve" src="../assets/curve.png" alt="Curve image">
+  <footer>
+    <strong>Email: developerjaabir@gmail.com</strong>
+    <div class="social-icons">
+      <button class="social-icon" onclick="window.open('https://www.facebook.com/groups/752137999872682','_blank')"><i
+          class="fa-brands fa-facebook"></i></button>
+      <button class="social-icon" onclick="window.open('https://twitter.com/Blog335300Our','_blank')"><i
+          class="fa-brands fa-square-twitter"></i></button>
+      <button onclick="window.open('https://www.instagram.com/our___blog/','_blank')" class="social-icon"><i
+          class="fa-brands fa-square-instagram"></i></button>
+    </div>
+    <div class="privacy-links">
+      <a href="./privacy.html">Privacy policy</a>
+      <a href="./contact.html">Contact us</a>
+    </div>
+  </footer>
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
