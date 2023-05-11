@@ -1,5 +1,14 @@
 const articles = [
     {
+    title:"Life of the new world chess champion",
+
+    shortDesc: "Last week, a new world chess champion was crowned...",
+    date:"11-05-2023",
+    category: "chess",
+    cover: "./assets/ding.png",
+    articleUrl: "./articles/ding.html"
+    },
+    {
     title:"Series related BDMO Junior category problem",
     shortDesc: "Find the summation of the first 100 terms of the series 1+2+5+6+9+10+13+14+...",
     date: "06-05-2023",
