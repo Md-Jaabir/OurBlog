@@ -22,7 +22,8 @@ const fetchRecent=()=>{
   const container=document.querySelector("main .recent .posts");
   let markup="";
   for(let i=0;i<4;i++){
-  let article=articles[i];
+    if(!articles) return;
+    let article=articles[i];
     if(article){
       markup+=`<div onclick="navigate('${article.articleUrl}')" class="post">
           <img src="${article.cover}">
