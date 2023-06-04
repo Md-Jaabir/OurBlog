@@ -1,0 +1,1 @@
+main h1,main h2,main p{color:#fff;z-index:1}main{background-image:url('../assets/menu.png');height:100vh;width:100vw;background-size:cover;background-repeat:no-repeat;padding-inline:20px;overflow-y:scroll}main h1{text-align:center;margin-top:20px}main h2{text-align:left;margin-top:30px}main p{margin-top:-10px;padding-right:30px}
